@@ -27,16 +27,16 @@ for tc in range(1, T+1):
             row += arr[i][j]
             col += arr[j][i]
 
-        print(row)
+        # print(row)
         for r in range(N-M+1):
             pal_r = row[r: r+M]
             if pal_r == pal_r[::-1]:
                 print('#{} {}'.format(tc, pal_r))
-                break
+                # break
 
-        print(col)
+        # print(col)
         for c in range(N-M+1):
-            pal_c = col[r: r+M]
+            pal_c = col[c: c+M]
             if pal_c == pal_c[::-1]:
                 print('#{} {}'.format(tc, pal_c))
-                break
+                # break

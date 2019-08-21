@@ -9,7 +9,7 @@ for tc in range(T):
     score = []
     for n in range(N):
         M, F, R = list(map(int, input().split()))
-        All = round(M * 0.35 + F * 0.45 + R * 0.2)
+        All = M * 0.35 + F * 0.45 + R * 0.2
         score.append(All)
     print(score)
 

@@ -32,4 +32,4 @@ for tc in range(1, T+1):
     else:
         result = ' '.join(count_list)
 
-    print(f'#{tc} {result}')
+    print('#{} {}'.format(tc, result))

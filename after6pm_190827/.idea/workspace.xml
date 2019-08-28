@@ -1,36 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c048387b-7360-4b99-98ed-a697e6424930" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../190827/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../190827/01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../190827/02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../190827/03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../190827/04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../190827/05.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../190827/06.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticeExam/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticeExam/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticeExam/01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticeExam/02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticeExam/03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticeExam/final.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticeExam/input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticeTest/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticeTest/01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticeTest/02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticeTest/03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../190823/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../190823/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c048387b-7360-4b99-98ed-a697e6424930" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +12,10 @@
     <session id="1262416856">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -71,7 +43,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/01.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -115,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/05.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -124,7 +96,7 @@
         <entry file="file://$PROJECT_DIR$/06.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="437">
-              <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -133,7 +105,7 @@
         <entry file="file://$PROJECT_DIR$/03input">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="11" column="9" lean-forward="true" selection-end-line="11" selection-end-column="9" />
+              <caret line="11" column="9" selection-end-line="11" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -319,14 +291,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2497332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32969433" />
@@ -334,6 +303,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -364,13 +337,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03input">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="9" lean-forward="true" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/04.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -384,14 +350,21 @@
     <entry file="file://$PROJECT_DIR$/05.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03input">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="9" selection-end-line="11" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/06.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
-          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
         </state>
       </provider>
     </entry>

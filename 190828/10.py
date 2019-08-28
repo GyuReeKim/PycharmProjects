@@ -1,3 +1,6 @@
+# 경사로
+# 풀다 말았음
+
 def fly(N, X, H, board):
     for i in range(X, N+2*X):
         for j in range(X, N+2*X):

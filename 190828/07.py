@@ -11,7 +11,8 @@ for tc in range(1, T+1):
     for i in range(N-1):
         for j in range(i+1, N):
             num = str(A[i]*A[j])
-            if num == ''.join(sorted(num)):
+            num_list = list(num)
+            if num_list == sorted(num_list):
                 if int(num) > maxV:
                     maxV = int(num)
 

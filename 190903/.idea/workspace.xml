@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48008b74-6fb5-4a9a-a7c1-e7a50f68c771" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09.py" afterDir="false" />
-    </list>
+    <list default="true" id="48008b74-6fb5-4a9a-a7c1-e7a50f68c771" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +9,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/01.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -33,7 +23,7 @@
         <entry file="file://$PROJECT_DIR$/02.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="12" lean-forward="true" selection-start-line="5" selection-end-line="18" selection-end-column="12" />
+              <caret line="18" column="12" selection-start-line="5" selection-end-line="18" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -59,7 +49,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/05.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-84">
+            <state>
               <caret column="7" selection-start-column="7" selection-end-column="7" />
             </state>
           </provider>
@@ -69,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/06.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -77,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/07.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="20" column="57" lean-forward="true" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+            <state relative-caret-position="340">
+              <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -86,7 +76,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/08.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-152">
+            <state>
               <caret column="4" selection-start-column="4" selection-end-column="4" />
             </state>
           </provider>
@@ -96,7 +86,7 @@
         <entry file="file://$PROJECT_DIR$/09.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -166,6 +156,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -310,14 +301,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24945295" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2549234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32968238" />
@@ -325,11 +313,15 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="R Packages" />
-      <window_info anchor="right" id="R Graphics" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -343,7 +335,7 @@
     <entry file="file://$PROJECT_DIR$/02.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="12" lean-forward="true" selection-start-line="5" selection-end-line="18" selection-end-column="12" />
+          <caret line="18" column="12" selection-start-line="5" selection-end-line="18" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -361,30 +353,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/06.py">
+    <entry file="file://$PROJECT_DIR$/05.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05.py">
+    <entry file="file://$PROJECT_DIR$/06.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-84">
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        <state relative-caret-position="374">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/07.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="20" column="57" lean-forward="true" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+        <state relative-caret-position="340">
+          <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/08.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152">
+        <state>
           <caret column="4" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
@@ -392,7 +384,7 @@
     <entry file="file://$PROJECT_DIR$/09.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
         </state>
       </provider>
     </entry>

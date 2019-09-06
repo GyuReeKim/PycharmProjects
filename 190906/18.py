@@ -5,39 +5,36 @@ rule = ['0001101', '0011001', '0010011', '0111101', '0100011', '0110001', '01011
 T = int(input())
 for tc in range(1, T+1):
     N, M = list(map(int, input().split()))
-    password = [input() for _ in range(N)]
+    password = ''
+    for i in range(N):
+        P = input()
+        for p in range(M-1, -1, -1):
+            if P[p] == '1':
+                password = P[p-56+1: p+1]
+                break
     # print(password)
 
-    real = []
-    for i in range(N):
-        for j in range(M-1, -1, -1):
-            if password[i][j] == '1':
-                real.append(password[i][j-56+1:j+1])
-                break
-    # print(real)
-
-    result = 0
-    # for i in range(len(real)):
-    num = []
-    for j in range(8):
-        for k in range(9):
-            if real[0][j*7: (j+1)*7] == rule[k]:
-                num.append(k)
-    # print(num)
+    num_list = []
+    for i in range(8):
+        for k in range(len(rule)):
+            if password[i*7: (i+1)*7] == rule[k]:
+                num_list.append(k)
+    # print(num_list)
 
     add = 0
-    for k in range(8):
-        if k == 7:
-            add += num[k]
-        elif k % 2:
-            add += num[k]
+    num = 0
+    for i in range(8):
+        if i == 7:
+            add += num_list[i]
+            num += num_list[i]
+        elif i % 2:
+            add += num_list[i]
+            num += num_list[i]
         else:
-            add += num[k]*3
+            add += num_list[i]
+            num += num_list[i]*3
+    # print(add, num)
 
-    # print(add)
-    if add % 10 != 0:
-        result = 0
-    else:
-        result += sum(num)
-    print('#{} {}'.format(tc, result))
-
+    if num % 10:
+        add = 0
+    print('#{} {}'.format(tc, add))

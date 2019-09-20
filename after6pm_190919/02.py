@@ -27,19 +27,19 @@ def bfs(lab, N, M):
             ni = i + di[k]
             nj = j + dj[k]
             if 0 <= ni < N and 0 <= nj < M:
+                # 인접하고 방문하지 않은 곳이면 인큐 및 visited 표시
                 if lab[ni][nj] == 0 and visited[ni][nj] == 0: # 인접이면(빈 공간이고 바이러스가 퍼지지 않았으면)
                     r += 1
                     q[r] = ni
                     r += 1
                     q[r] = nj
                     visited[ni][nj] = visited[i][j] + 1
-                    # 인접하고 방문하지 않은 곳이면 인큐 및 visited 표시
 
     # 모든 칸에 대해 lab[i][j]와 visited[i][j]가 0인 칸 수를 max와 비교
     cnt = 0
     for i in range(N):
         for j in range(M):
-            if lab[ni][nj] == 0 and visited[ni][nj] == 0:
+            if lab[i][j] == 0 and visited[i][j] == 0:
                 cnt += 1
     if cnt > maxV:
         maxV = cnt
@@ -56,11 +56,11 @@ for i in range(N*M-2): # 첫번째 기둥
             if lab[j//M][j%M] == 0: # 기둥을 세울 수 있으면
                 for k in range(j+1, N*M): # 세번째 기둥
                     if lab[k//M][k%M] == 0: # 기둥을 세울 수 있으면
-                        lab[i//M][i%M] = 1 # 해당 위치에 기둥을 세우고
+                        lab[i//M][i%M] = 1 # 해당 위치에 기둥을 세우고 (놓을 수 있는 위치를 확인해 기둥을 세우고)
                         lab[j//M][j%M] = 1
                         lab[k//M][k%M] = 1
-                        bfs(lab, N, M)
-                        lab[i//M][i%M] = 0 # 다른 위치에 기둥을 세우려면
+                        bfs(lab, N, M) # 세균 번식
+                        lab[i//M][i%M] = 0 # 다른 위치에 기둥을 세우려면 (기둥 위치를 바꾸기 위해 초기화)
                         lab[j//M][j%M] = 0
                         lab[k//M][k%M] = 0
 print(maxV)

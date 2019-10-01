@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="033548c1-424a-4c0d-b0e5-d8dc73c32f4b" name="Default Changelist" comment="">
+    <list default="true" id="ea57295c-2ca6-4177-86c2-d53c7b5cc216" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../191001/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../191001/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../after6pm_190930/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../after6pm_190930/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,12 +14,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/02.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="761">
+              <caret line="55" column="29" lean-forward="true" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -37,17 +49,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/01.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/after6pm_190930.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" />
+        <option value="$PROJECT_DIR$/02.py" />
       </list>
     </option>
   </component>
@@ -67,8 +69,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="after6pm_190930" type="b2602c69:ProjectViewProjectNode" />
-              <item name="after6pm_190930" type="462c0819:PsiDirectoryNode" />
+              <item name="after6pm_191001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="after6pm_191001" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -77,8 +79,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../after6pm_190930" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -93,8 +94,8 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="01" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="after6pm_190930" />
+    <configuration name="02" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="after6pm_191001" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -105,7 +106,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,7 +117,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.01" />
+        <item itemvalue="Python.02" />
       </list>
     </recent_temporary>
   </component>
@@ -125,11 +126,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="033548c1-424a-4c0d-b0e5-d8dc73c32f4b" name="Default Changelist" comment="" />
-      <created>1569835273171</created>
+      <changelist id="ea57295c-2ca6-4177-86c2-d53c7b5cc216" name="Default Changelist" comment="" />
+      <created>1569922054529</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1569835273171</updated>
+      <updated>1569922054529</updated>
     </task>
     <servers />
   </component>
@@ -137,7 +138,7 @@
     <frame x="953" y="0" width="975" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26010928" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2546448" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -161,8 +162,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="761">
+          <caret line="55" column="29" lean-forward="true" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
         </state>
       </provider>
     </entry>

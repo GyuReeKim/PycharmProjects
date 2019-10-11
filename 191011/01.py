@@ -18,17 +18,17 @@ for tc in range(1, T+1):
     farm = [list(map(int, input().split())) for _ in range(N)]
 
     minV = 1000000
-    # carrot = [0, 0, 0]
+    carrot = [0, 0, 0]
     for i in range(N-1):
         for j in range(M-1):
             s1 = f(0, 0, i, j)
             s2 = f(0, j+1, i, M-1)
             s3 = f(i+1, 0, N-1, M-1)
-            diff = max(s1, s2, s3) - min(s1, s2, s3)
-            # carrot[0] = s1
-            # carrot[1] = s2
-            # carrot[2] = s3
-            # diff = max(carrot) - min(carrot)
+            # diff = max(s1, s2, s3) - min(s1, s2, s3)
+            carrot[0] = s1
+            carrot[1] = s2
+            carrot[2] = s3
+            diff = max(carrot) - min(carrot)
             if diff < minV:
                 minV = diff
     print('#{} {}'.format(tc, minV))

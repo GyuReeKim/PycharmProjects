@@ -11,4 +11,3 @@ for tc in range(1, T+1):
     len = 0
     for i in range(1, N):
         if i == N-1:
-            

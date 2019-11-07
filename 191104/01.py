@@ -1,9 +1,6 @@
 # 백준 7576번 토마토
 # 푸는중
 
-import sys
-sys.stdin=open('01.txt', 'r')
-
 
 def bfs(q):
     global visited

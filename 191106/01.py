@@ -1,8 +1,5 @@
 # 백준 2178번 미로 탐색
 
-import sys
-sys.stdin=open('01.txt', 'r')
-
 
 def bfs(i, j):
     di = [0, 1, 0, -1]

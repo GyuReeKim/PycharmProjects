@@ -17,6 +17,7 @@ def perm(n, k):
 
 
 def bfs(num):
+    global energy
     q = ['']*N*M
     visited = [[0 for b in range(M)] for a in range(N)]
     start = -1
@@ -37,6 +38,7 @@ def bfs(num):
             nj = j + dj[k]
             if ni >= 0 and ni < N and nj >= 0 and nj < M and visited[ni][nj] == 0:
                 if ni == mineral[num][0] and nj == mineral[num][1]:
+                    energy += mineral[num][2]
                     visited[ni][nj] = visited[i][j] + 1
                     end += 1
                     q[end] = [ni, nj]
@@ -61,4 +63,5 @@ for tc in range(1, T+1):
     print(mineral)
     p = [_ for _ in range(len(mineral))]
     perm(0, len(mineral))
+    print(energy)
 
